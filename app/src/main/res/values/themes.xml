@@ -17,20 +17,24 @@
 
 
     <style name="EditTextCustom" parent="android:style/Widget.EditText">
-        <item name="android:background">@color/primaryColor1</item>
-        <item name="android:textColor">@color/primaryLightColor2</item>
+        <item name="android:background">@color/primaryDarkColor3</item>
+        <item name="android:textColor">@color/primaryTextColorD</item>
         <item name="android:layout_width">@dimen/editTextWidth</item>
         <item name="android:layout_height">@dimen/editTextHeight</item>
     </style>
 
     <style name="TextViewCustom" >
-        <item name="android:background">@color/primaryColorA</item>
-        <item name="android:textColor">@color/primaryLightColorB</item>
-
+        <item name="android:background">@color/primaryLightColor2</item>
+        <item name="android:textColor">@color/primaryTextColorD</item>
         <item name="android:layout_width">@dimen/textViewWidth</item>
         <item name="android:layout_height">@dimen/textViewHeight</item>
-
     </style>
 
+    <style name="ButtonCustom" >
+        <item name="android:background">@color/primaryDarkColor</item>
+        <item name="android:textColor">@color/primaryTextColorD</item>
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+    </style>
 
 </resources>
