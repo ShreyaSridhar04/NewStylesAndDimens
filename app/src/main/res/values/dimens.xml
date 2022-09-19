@@ -7,4 +7,10 @@
     <dimen name = "buttonHeight">70dp</dimen>
     <dimen name = "buttonWidth">200dp</dimen>
 
+    <dimen name = "screenMargin">30dp</dimen>
+    <dimen name = "bottomMargin">2dp</dimen>
+    <dimen name = "editTextPadding">10dp</dimen>
+    <dimen name = "buttonPadding">15dp</dimen>
+
+
 </resources>
