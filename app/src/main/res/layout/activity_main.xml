@@ -6,16 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/screenMargin"
+        android:gravity="center_horizontal"
+        >
     <TextView
         android:id="@+id/textView"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
-        android:text="TextView"
+        android:text="Questions"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         style ="@style/TextViewCustom"
         android:paddingLeft="@dimen/textViewPadding"
+        android:layout_marginBottom="@dimen/betweenElementsMargin"
+        android:layout_marginTop="160dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.275" />
@@ -26,8 +35,9 @@
         android:layout_height="@dimen/editTextHeight"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Name?"
         android:padding="@dimen/editTextPadding"
+        android:layout_marginBottom="@dimen/betweenElementsMargin"
         style = "@style/EditTextCustom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,9 +48,10 @@
         android:id="@+id/button"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
-        android:text="Button"
+        android:text="Age?"
         style = "@style/ButtonCustom"
         android:padding="@dimen/buttonPadding"
+        android:layout_marginBottom="@dimen/betweenElementsMargin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,9 +62,10 @@
         android:id="@+id/button2"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
-        android:text="Button"
+        android:text="Height?"
         style = "@style/ButtonCustom"
         android:padding="@dimen/buttonPadding"
+        android:layout_marginBottom="@dimen/betweenElementsMargin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,7 +76,7 @@
         android:id="@+id/textView2"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
-        android:text="TextView"
+        android:text="That's it!"
         android:paddingLeft="@dimen/textViewPadding"
         style ="@style/TextViewCustom"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,7 +84,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.73"
-        android:layout_marginBottom="@dimen/bottomMargin"
-        />
 
+        />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
