@@ -11,6 +11,7 @@
     <dimen name = "bottomMargin">2dp</dimen>
     <dimen name = "editTextPadding">10dp</dimen>
     <dimen name = "buttonPadding">15dp</dimen>
+    <dimen name = "textViewPadding">10dp</dimen>
 
 
 </resources>
